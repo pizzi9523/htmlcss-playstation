@@ -95,7 +95,8 @@ body{
     width: 200px;
 }
 
-.game{
+.game, 
+.accessory{
     width: 100%;
     object-fit: cover;
 }
@@ -103,8 +104,21 @@ body{
 .game img{
     width: 100%;
     border-radius: 20px;
-    
 }
+
+.accessory img{
+    width: 70%;
+}
+
+
+.accessory.active{
+    border-bottom: 2px solid #2D64E6;
+}
+
+.accessory.inactive{
+    filter: opacity(0.7);
+}
+
 
 
 
