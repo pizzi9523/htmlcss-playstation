@@ -17,6 +17,10 @@ body{
     background-color: #CC3C0F;
 }
 
+.bg_blue_btn{
+    background-color: #2D64E6;
+}
+
 .c_black{
     color: black!important;
 }
