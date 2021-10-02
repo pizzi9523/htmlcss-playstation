@@ -43,8 +43,11 @@ body{
 }
 
 
+/*debug*/
 
-
+.debug .col-lg-2.bg_black{
+    height: 245px;
+}
 
 /**************
 *Header*
