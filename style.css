@@ -78,11 +78,19 @@ body{
 *Main*
 ***************/
 .hero_image{
-    background-image: url("./img/jumbo-bg.png");
+    
     background-position: center;
     background-size: cover;
     height: 600px;
     position: relative;
+}
+
+.bg_jumbo{
+    background-image: url("./img/jumbo-bg.png");
+}
+
+.bg_banner{
+    background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
 }
 
 .hero_text{
@@ -118,6 +126,8 @@ body{
 .accessory.inactive{
     filter: opacity(0.7);
 }
+
+
 
 
 
