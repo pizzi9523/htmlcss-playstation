@@ -81,7 +81,6 @@ body{
     
     background-position: center;
     background-size: cover;
-    height: 600px;
     position: relative;
 }
 
@@ -93,14 +92,12 @@ body{
     background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
 }
 
-.hero_text{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.pt_300{
+    padding-top: 300px;
 }
 
 .hero_logo img{
-    width: 200px;
+    width: 100%
 }
 
 .game, 
