@@ -28,6 +28,10 @@ body{
     background-color: #D9DADC;
 }
 
+.bg_grey_hero{
+    background-color: #1F1F1F;
+}
+
 .bg_plus{
     background-color: #BEBCBB;
 }
@@ -137,7 +141,8 @@ body{
     object-fit: cover;
 }
 
-.game img{
+.game img,
+.ps4_ps5_games img{
     border-radius: 20px;
 }
 
