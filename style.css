@@ -57,6 +57,14 @@ body{
     color: white!important;
 }
 
+.img_active{
+    border: 2.5px solid #167DD1;
+}
+
+.img_inactive{
+    border: transparent;
+}
+
 
 /*debug*/
 
@@ -130,7 +138,6 @@ body{
 }
 
 .game img{
-    width: 100%;
     border-radius: 20px;
 }
 
