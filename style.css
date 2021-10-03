@@ -3,7 +3,6 @@
 ***************/
 body{
     font-family: Arial, sans-serif;
-    font-weight: 600;  
 }
 
 /**************
@@ -85,11 +84,16 @@ body{
 .site_nav ul li a{
     color: black!important;  
     font-weight: 600;  
+    font-size: 14px;
 }
 
 .site_nav ul li a img{
     width: 10px;
     margin: 0 5px;
+}
+
+.lens{
+    width:  25px;
 }
 
 
@@ -146,6 +150,10 @@ body{
 .logo_plus img,
 .logo_now img{
     width: 400px;
+}
+
+.social img{
+    width: 100%;
 }
 
 
