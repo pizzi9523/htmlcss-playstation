@@ -1,0 +1,197 @@
+/**************
+*Common*
+***************/
+body{
+    font-family: Arial, sans-serif;
+}
+
+/**************
+*Utility*
+***************/
+.bg_black{
+    background-color: black;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.bg_orange{
+    background-color: #CC3C0F;
+}
+
+.bg_blue_btn{
+    background-color: #2D64E6;
+}
+
+.bg_grey_btn{
+    background-color: #D9DADC;
+}
+
+.bg_grey_hero{
+    background-color: #1F1F1F;
+}
+
+.bg_plus{
+    background-color: #BEBCBB;
+}
+
+.bg_now{
+    background-color: #161C3B;
+}
+
+.bg_footer{
+    background-color: #00439C;
+}
+
+.c_black{
+    color: black!important;
+}
+
+.c_grey{
+    color: #9D9D9D!important;
+}
+
+.c_grey_sub{
+    color: #757575!important;
+}
+
+.c_blue{
+    color: #167DD1!important;
+}
+
+.btn.c_white,
+.c_white{
+    color: white!important;
+}
+
+.img_active{
+    border: 2.5px solid #167DD1;
+}
+
+.img_inactive{
+    border: transparent;
+}
+
+.pt_250{
+    padding-top: 250px;
+}
+/*debug*/
+
+/**************
+*Header*
+***************/
+.brand_header{
+    height: 30px;
+}
+
+.logo{
+    width: 80px;
+    margin-right: 10px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+.site_nav ul li a{
+    color: black!important;  
+    font-weight: 600;  
+    font-size: 13px;
+}
+
+.site_nav ul li a img{
+    width: 10px;
+    margin: 0 5px;
+}
+
+.lens{
+    width:  25px;
+}
+
+
+/**************
+*Main*
+***************/
+.hero_image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.bg_jumbo{
+    background-image: url("./img/jumbo-bg.png");
+}
+
+.bg_banner{
+    background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+
+
+.hero_logo img{
+    width: 100%
+}
+
+.game, 
+.accessory{
+    width: 100%;
+    object-fit: cover;
+}
+
+.game img,
+.ps4_ps5_games img{
+    border-radius: 20px;
+}
+
+.accessory img{
+    width: 70%;
+}
+
+
+.accessory.active{
+    border-bottom: 2px solid #2D64E6;
+}
+
+.accessory.inactive{
+    filter: opacity(0.7);
+}
+
+.logo_plus img,
+.logo_now img{
+    width: 75%;
+}
+
+.social img{
+    width: 100%;
+}
+
+/**************
+*Footer*
+***************/
+
+.lenguage img{
+    width: 20px;
+}
+
+.bottom{
+    font-size: 14px;
+}
+.bottom img{
+    width: 130px;
+}
+
+.logo_footer{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
