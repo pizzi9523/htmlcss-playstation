@@ -117,7 +117,7 @@ body{
 *Main*
 ***************/
 .hero_image{
-    
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
