@@ -73,12 +73,10 @@ body{
     border: transparent;
 }
 
-
-/*debug*/
-
-.debug .col-lg-2.bg_black{
-    height: 245px;
+.pt_250{
+    padding-top: 250px;
 }
+/*debug*/
 
 /**************
 *Header*
@@ -131,9 +129,7 @@ body{
     background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
 }
 
-.pt_300{
-    padding-top: 300px;
-}
+
 
 .hero_logo img{
     width: 100%
