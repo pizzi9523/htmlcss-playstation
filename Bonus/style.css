@@ -94,6 +94,40 @@ body{
     display: none;
 }
 
+.dropdown{
+    position: static;
+}
+
+.dropdown-menu{
+    width: 100%;
+    top: 90%;
+    border: none;
+    border-radius: none;
+}
+
+.dropdown-menu li{
+    display: inline-block;
+}
+
+.dropdown_bottom{
+    display: block;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    padding-top: 8px;
+}
+
+.dropdown_bottom a{
+    text-decoration: none;
+}
+
+.dropdown_bottom a i{
+    font-size: 4px;
+    vertical-align: middle;
+    color: #2D64E6;
+
+}
+
+
 
 .site_nav ul li a{
     color: black!important;  
