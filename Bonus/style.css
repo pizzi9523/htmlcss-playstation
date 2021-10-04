@@ -175,22 +175,23 @@ body{
     width:  25px;
 }
 
-.nav-item a:hover{
+.nav-item.dropdown a:hover{
     color: #2D64E6!important;
 }
 
-.nav-item a:hover img.static{
+.nav-item.dropdown a:hover img.static{
     display: none;
 }
 
-.nav-item a img.hover{
+.nav-item.dropdown a img.hover{
    display: none;
 }
 
-.nav-item a:hover img.hover{
+.nav-item.dropdown a:hover img.hover{
     display: inline;
-
 }
+
+
 
 
 
@@ -271,6 +272,9 @@ body{
     width: 100px;
 }
 
+#site_footer .nav-item:hover a{
+    text-decoration: underline;
+}
 
 
 
