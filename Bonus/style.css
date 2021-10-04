@@ -76,6 +76,24 @@ body{
 .pt_250{
     padding-top: 250px;
 }
+
+.btn:hover span{
+    padding: 5px 8px;
+    margin: -10px;
+    border-radius: 50rem!important;
+}
+
+.btn:hover span.black{
+    border: 2px solid #000000;
+}
+
+.btn:hover span.white{
+    border: 2px solid #ffffff;
+}
+
+
+
+
 /*debug*/
 
 /**************
@@ -125,6 +143,11 @@ body{
     vertical-align: middle;
     color: #2D64E6;
 
+}
+
+.scheda{
+    padding: 0 10px;
+    box-shadow: black;
 }
 
 .card-1 {
