@@ -247,6 +247,13 @@ body{
     cursor: pointer;
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
 .logo_plus img,
 .logo_now img{
     width: 75%;
