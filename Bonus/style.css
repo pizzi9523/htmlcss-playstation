@@ -212,6 +212,17 @@ body{
     object-fit: cover;
 }
 
+.game{
+    transition:all 0.5s;
+    position: relative;
+    top: 0
+
+}
+.game:hover{
+    position: relative;
+    top: -30%;
+}
+
 .game img,
 .ps4_ps5_games img{
     border-radius: 20px;
@@ -252,6 +263,7 @@ body{
 .social img{
     width: 100%;
 }
+
 
 /**************
 *Footer*
